@@ -27,7 +27,7 @@ window.onload = function () {
 
 
     var decline = document.getElementById("decline")
-    var endTime = new Date("2018/12/23 00:00:00");
+    var endTime = new Date("2019/02/4 00:00:00");
     setInterval(function () {
         var nowTime = new Date();
         var second = parseInt((endTime.getTime()-nowTime.getTime())/1000);
@@ -45,7 +45,7 @@ window.onload = function () {
         h<10 ? h="0"+h:h;
         m<10 ? m="0"+m:m;
         s<10 ? s="0"+s:s;
-        decline.innerHTML = "距离2018年12月23日多肉生日还有:"+d+"天"+h+"小时"+m+"分钟"+s+"秒";}
+        decline.innerHTML = "距离大年30还有:"+d+"天"+h+"小时"+m+"分钟"+s+"秒";}
     },1000);
 
 }
